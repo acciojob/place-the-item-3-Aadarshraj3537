@@ -1,2 +1,10 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px; /* Optional: Adds spacing between items */
+}
 
-/* Your CSS Code here. */
+.holder > * {
+  flex: 0 0 auto; /* Prevent items from squashing */
+}
